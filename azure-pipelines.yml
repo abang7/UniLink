@@ -20,3 +20,13 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
+- task: PowerShell@1
+  inputs:
+    scriptType: 'inlineScript'
+    inlineScript: |
+      # You can write your powershell scripts inline here. 
+      # You can also pass predefined and custom variables to this scripts using arguments
+      
+       Write-Host "Hello World"
+
