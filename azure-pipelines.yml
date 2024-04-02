@@ -10,12 +10,15 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: AzureRmWebAppDeployment@4
+
+
+- task: Maven@4
   inputs:
-    ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1(d85e2a5d-549b-4cc1-bcfc-519eff2fe0f5)'
-    appType: 'webApp'
-    WebAppName: '1a'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
-
-
+    mavenPomFile: 'pom.xml'
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    javaHomeOption: 'JDKVersion'
+    mavenVersionOption: 'Default'
+    mavenAuthenticateFeed: false
+    effectivePomSkip: false
+    sonarQubeRunAnalysis: false
