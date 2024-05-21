@@ -1,0 +1,173 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "邦邦校园"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登 录"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注 册"
+			}
+		},
+		{
+			"path" : "pages/orders/orders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户订单",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/me/me",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我 的",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/preOrders/preOrders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "下 单",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/address/address",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的地址",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/certification/certification",
+			"style" : 
+			{
+				"navigationBarTitleText" : "骑手认证",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/detail/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/comment/comment",
+			"style" : 
+			{
+				"navigationBarTitleText" : "订单评价",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/wallet/wallet",
+			"style" : 
+			{
+				"navigationBarTitleText" : "钱 包",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/charge/charge",
+			"style" : 
+			{
+				"navigationBarTitleText" : "充 值",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/records/records",
+			"style" : 
+			{
+				"navigationBarTitleText" : "收支记录",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/acceptOrders/acceptOrders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "骑手订单",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/info/info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "平台介绍",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/agreement/agreement",
+			"style" : 
+			{
+				"navigationBarTitleText" : "用户协议",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/MyComment/MyComment",
+			"style" : 
+			{
+				"navigationBarTitleText" : "评价中心",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/person/person",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人信息",
+				"enablePullDownRefresh" : false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园跑腿",
+		"navigationBarBackgroundColor": "#006eff",
+		"backgroundColor": "#006eff"
+	},
+	"tabBar": {
+		"backgroundColor": "#fff",
+		"selectedColor": "#006eff",
+		"color": "#666",
+		"list": [
+			{
+				"iconPath": "/static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png",
+				"text": "首页",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"iconPath": "/static/icons/orders.png",
+				"selectedIconPath": "static/icons/orders-active.png",
+				"text": "订单",
+				"pagePath": "pages/orders/orders"
+			},
+			{
+				"iconPath": "/static/icons/me.png",
+				"selectedIconPath": "static/icons/me-active.png",
+				"text": "我的",
+				"pagePath": "pages/me/me"
+			}
+		]
+	}
+}

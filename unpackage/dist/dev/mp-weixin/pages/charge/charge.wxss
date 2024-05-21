@@ -1,0 +1,16 @@
+
+.charge-item {
+	border: 2rpx solid #666;
+	padding: 40rpx 0;
+	text-align: center;
+	border-radius: 10rpx;
+	margin-bottom: 10rpx;
+	color: #666;
+	font-size: 36rpx;
+}
+.charge-item-active {
+	background-color: #f44336;
+	border-color: #f44336;
+	color: #fff;
+}
+

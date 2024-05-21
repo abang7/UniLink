@@ -1,0 +1,1 @@
+<view style="padding:20rpx;"><view class="box"><view style="font-size:40rpx;font-weight:bold;text-align:center;margin-bottom:20rpx;">用户协议</view><view><view style="margin-bottom:20rpx;font-size:30rpx;">用户协议</view><uni-link vue-id="2e6491aa-1" color="blue" href="https://hlju.deu.cn" text="https://hlju.deu.cn" bind:__l="__l"></uni-link></view></view></view>
